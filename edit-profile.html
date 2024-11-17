@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile - CodeConnect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="main-header">
+    <h1>CodeConnect</h1>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="directory.html">Member Directory</a></li>
+            <li><a href="messaging.html">Messaging</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="edit-profile-section">
+    <h2>Edit Your Profile</h2>
+    <form class="edit-profile-form">
+        <label for="bio">Bio:</label>
+        <textarea id="bio" placeholder="Tell us about yourself"></textarea>
+
+        <label for="skills">Skills:</label>
+        <input type="text" id="skills" placeholder="E.g., Python, React, DevOps">
+
+        <label for="position">Current Position:</label>
+        <input type="text" id="position" placeholder="E.g., Software Engineer">
+
+        <label for="thumbnail">Profile Picture:</label>
+        <input type="file" id="thumbnail">
+
+        <button type="submit" class="cta-button">Save Changes</button>
+    </form>
+</section>
+
+<footer class="main-footer">
+    <p>&copy; 2024 CodeConnect. All rights reserved.</p>
+</footer>
+</body>
+</html>

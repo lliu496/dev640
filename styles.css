@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.main-header {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 50px 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.features, .profile-section, .directory-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-cards, .member-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card, .member-card, .profile-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.main-footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
